@@ -1,97 +1,83 @@
 package com.company;
 
-class Monitor {
+import java.util.ArrayList;
+import java.util.List;
+
+class University {
     private String name;
-    private String color;
-    private float width;
-    private float height;
-    private String resolution;
-// function constructor
-    public Monitor(String name, String color, float width, float height, String resolution) {
-       this.color = color;
-       this.name = name;
-       this.width = width;
-       this.height = height;
-       this.resolution = resolution;
-    
-    }
+    private int foundationYear;
+    private List<Student> studentList;
 
-    public Monitor(String name) {
-        // This constructor has one parameter, name.
+    public University(String name, int foundationYear, List<Student> students) {
         this.name = name;
+        this.foundationYear = foundationYear;
+        this.studentList = students;
     }
-    void setColor(String newColor) {
-        this.color = newColor;
-    }
-    void showColor() {
-        System.out.println("Monitor " + this.name + " Color: " + this.color);
-    }
-    void setDimensions(float newWidth, float newHeigth) {
-        this.width = newWidth;
-        this.height = newHeigth;
-    }
-    void showDimensions() {
-        System.out.println("Monitor " + this.name + " Height: " + this.height + " Width: " + this.width);
-    }
-    void setResolution(String resolution) {
-        this.resolution = resolution;
-    }
-    void showResolution() {
-        System.out.println("Monitor " + this.name + " has resolution : " + this.resolution);
-    }
-
-    String getName(){
+    String getName() {
         return this.name;
     }
-    String getColor(){
-        return this.color;
-    }
 
-    float getHeight() {
-        return this.height;
-    }
-    float getWidth() {
-        return this.width;
-    }
-
-    void showInfo() {
-        this.showResolution();
-        this.showDimensions();
-        this.showColor();
+    double getAverage() {
+        double sum = 0;
+        int studentsNr = this.studentList.size();
+        for (int i = 0; i < studentsNr; i++) {
+            Student currentStudent = this.studentList.get(i);
+            sum = sum + currentStudent.getMark();
+        }
+        double average = sum / studentsNr;
+        return average;
     }
 }
+class Student {
+    private String name;
+    private int age;
+    private double mark;
+
+    public Student(String name, int age, double mark) {
+        this.name = name;
+        this.age = age;
+        this.mark = mark;
+    }
+
+    public double getMark() {
+
+        return this.mark;
+    }
+}
+
 
 public class Main {
 
     public static void main(String[] args) {
-        Monitor lg = new Monitor("LG");
-        Monitor samsung = new Monitor("Samsung", "Red", 12, 10, "1080p");
-        lg.setColor("White");
-        lg.showColor();
-        lg.setDimensions(9,10);
-        lg.showDimensions();
-        lg.setResolution("720p");
-        lg.showResolution();
-        samsung.setColor("Green");
-        samsung.showInfo();
-        System.out.println("=====================");
-        System.out.println("Monitor "+lg.getName()+" has color " + lg.getColor() + "  \nBut "+samsung.getName()+" has color "+ samsung.getColor());
+        Student student1 = new Student("Adriana", 20, 10);
+        Student student2 = new Student("Sandrinia", 17, 9.9);
+        List<Student> utmStudents = new ArrayList<Student>();
+        utmStudents.add(student1);
+        utmStudents.add(student2);
+        University utm = new University("UTM", 1999, utmStudents);
 
-        if (lg.getHeight()> samsung.getHeight()) {
-            System.out.println("Monitor " + lg.getName() + " is higher than  Monitor " + samsung.getName());
-        } else {
-            System.out.println("Monitor " + samsung.getName() + " is higher than  Monitor " + lg.getName());
-        }
 
-        if (lg.getWidth()> samsung.getWidth()) {
-            System.out.println("Monitor " + lg.getName() + " is widder than  Monitor " + samsung.getName());
-        } else {
-            System.out.println("Monitor " + samsung.getName() + " is widder than  Monitor " + lg.getName());
-        }
+        Student student3 = new Student("Ilona", 18, 8);
+        Student student4 = new Student("Madalina", 8, 7.5);
+        List<Student> usmStudents = new ArrayList<Student>();
+        usmStudents.add(student3);
+        usmStudents.add(student4);
+        University usm = new University("USM", 2000, usmStudents);
+
+
+        Student student5 = new Student("Andrei", 33, 5);
+        Student student6 = new Student("Inga", 23, 9.5);
+        List<Student> ulimStudents = new ArrayList<Student>();
+        ulimStudents.add(student5);
+        ulimStudents.add(student6);
+        University ulim = new University("ULIM", 1964, ulimStudents);
 
 
 
-
-
+        System.out.println("Average media for "+utm.getName()+" is " + utm.getAverage());
+        System.out.println("Average media for "+usm.getName()+" is " + usm.getAverage());
+        System.out.println("Average media for "+ulim.getName()+" is " + ulim.getAverage());
+        double universitiesAvg = (utm.getAverage() + usm.getAverage() + ulim.getAverage()) / 3;
+        System.out.println("Average between universities is " + universitiesAvg);
     }
 }
