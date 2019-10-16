@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="251120a1-7012-427e-b957-5d2c09ccdb85" name="Default Changelist" comment="" />
+    <list default="true" id="251120a1-7012-427e-b957-5d2c09ccdb85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab1.1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1.1/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab1.1/com/company/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1.1/com/company/Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RHbhlveV9S9si7qOlaELDiQaSI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
@@ -70,11 +88,23 @@
       <workItem from="1570630506051" duration="29000" />
       <workItem from="1571130410209" duration="609000" />
       <workItem from="1571161475977" duration="18000" />
+      <workItem from="1571222298376" duration="1400000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab1_1$Main.ic" NAME="Main Coverage Results" MODIFIED="1569329062880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
