@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251120a1-7012-427e-b957-5d2c09ccdb85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab2.1/Lab2.1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3.1/Lab3.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3.1/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2.1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +84,7 @@
       <workItem from="1571130410209" duration="609000" />
       <workItem from="1571161475977" duration="18000" />
       <workItem from="1571222298376" duration="1996000" />
+      <workItem from="1571827339918" duration="22000" />
     </task>
     <servers />
   </component>
@@ -96,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

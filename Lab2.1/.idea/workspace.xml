@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd26244f-98dc-4499-8fa6-d115055844b0" name="Default Changelist" comment="" />
+    <list default="true" id="dd26244f-98dc-4499-8fa6-d115055844b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3.1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3.1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3.1/Lab3.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3.1/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1.1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +84,7 @@
       <workItem from="1571131608275" duration="1915000" />
       <workItem from="1571161510414" duration="203000" />
       <workItem from="1571166366899" duration="706000" />
+      <workItem from="1571225493231" duration="610000" />
     </task>
     <servers />
   </component>
@@ -87,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
