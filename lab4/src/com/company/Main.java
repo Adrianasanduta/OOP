@@ -9,7 +9,7 @@ import static java.lang.Math.abs;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String content = new String(Files.readAllBytes(Paths.get("File.txt")));
+        String content = new String(Files.readAllBytes(Paths.get("File2.txt")));
 
         System.out.println(content);
 
